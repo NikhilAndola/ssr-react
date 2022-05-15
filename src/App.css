@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+.App button {
+  width: 200px;
+  height: 40px;
+  font-size: 2rem;
+  text-align: center;
+  margin: 2px;
+  background-color: pink;
+}
+
+.App button:hover {
+  background-color:rgb(252, 82, 111);
+  transform: translateY(2px);
+}
